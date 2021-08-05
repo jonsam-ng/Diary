@@ -25,27 +25,8 @@ cover: /img/cover.jpg
 # 是否关闭默认滚动条
 scrollbar: true
 
-# Gitalk 评论插件（https://github.com/gitalk/gitalk）
-gitalk:
-  # 是否自动展开评论框
-  autoExpand: true
-  # 应用编号
-  clientID: "ef144378d85106f38c0f"
-  # 应用秘钥
-  clientSecret: "3024558d3d3d12c074d774a73c8178ce2f790f17"
-  # issue仓库名
-  repo: "jonsam-ng.github.io"
-  # Github名
-  owner: "jonsam-ng"
-  # Github名
-  admin: ["jonsam-ng"]
-  # Ensure uniqueness and length less than 50
-  id: location.pathname
-  # Facebook-like distraction free mode
-  distractionFreeMode: true
-
 # 网站关键字
-keywords: Jonsam
+keywords: jonsam, diary
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
 google_analytics:
