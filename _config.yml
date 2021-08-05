@@ -5,15 +5,15 @@
 # Site
 title: 朝花·夕拾
 subtitle: Jonsam's Diary
-description:
-keywords:
+description: jonsam 的日记
+keywords: 日记
 author: Jonsam
 language: zh_CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://jonsam-ng.github.io
+url: https://diary.jonsam.site
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

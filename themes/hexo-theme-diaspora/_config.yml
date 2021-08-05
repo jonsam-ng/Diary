@@ -1,94 +1,57 @@
 # 头部菜单，title: link
 menu:
-  首页: /
-  分类: /categories
-  标签: /tags
-  归档: /archives  
-  关于: /about
+  关于: /whoami
+  归档: /archives
+  博客: http://blog.jonsam.site
+  Github: https://github.com/jonsam-ng
 
 # 是否显示目录
-TOC: false
+TOC: true
 
 # 是否自动播放音乐
 autoplay: false
 
-# 默认音乐（随机播放）
-mp3: 
-    - http://link.hhtjim.com/163/425570952.mp3
-    - http://link.hhtjim.com/163/425570952.mp3
+# 默认音乐
+mp3:
+  - https://link.hhtjim.com/163/518587919.mp3
+  - https://link.hhtjim.com/163/1320530720.mp3
 
-# 首页封面图, 为空时取文章的cover作为封面(注意跨域问题,建议使用同源图片)
+# 首页封面图, 为空时取文章的cover作为封面
 welcome_cover: /img/welcome-cover.jpg
 
-# 默认文章封面图（随机调用,支持外链）
-cover: 
-  - /img/cover.jpg
-  - /img/welcome-cover.jpg
-
- 
-# 是否使用mathjax
-mathjax: false
-
+# 默认文章封面图
+cover: /img/cover.jpg
 
 # 是否关闭默认滚动条
 scrollbar: true
 
-# 本地搜索,请将索引文件放在网站根目录,或修改主题js文件的path值
-local_search:
-    # 是否启用
-    enable: false
-
-# 是否显示 一言(hitokoto)
-hitokoto: true
-
-# 链接(可选:facebook,twitter,github,wechat,email)
-links:
-    facebook: /
-    twitter: /
-    github: /
-    wechat: /img/logo.png
-    email: mailto:xxxx@gmail.com
-  
-# 备案
-beian: 
-    # 是否显示备案信息
-    enable: true
-    # 是否在主页面最底下显示备案信息(虽然丑，但是完全满足规定要求)
-    enableFooter: false
-    # 备案号
-    beianInfo: 冀ICP备xxxxxxx号
-    # 链接地址
-    link: http://www.beian.miit.gov.cn
-
 # Gitalk 评论插件（https://github.com/gitalk/gitalk）
 gitalk:
-    # 是否启用评论功能
-    enable: false
-    # 是否自动展开评论框
-    autoExpand: false
-    # 应用编号
-    clientID: ''
-    # 应用秘钥
-    clientSecret: ''
-    # issue仓库名
-    repo: ''
-    # Github名
-    owner: ''
-    # Github名
-    admin: ['']
-    # Ensure uniqueness and length less than 50
-    id: location.pathname
-    # Facebook-like distraction free mode
-    distractionFreeMode: false
+  # 是否自动展开评论框
+  autoExpand: true
+  # 应用编号
+  clientID: "ef144378d85106f38c0f"
+  # 应用秘钥
+  clientSecret: "3024558d3d3d12c074d774a73c8178ce2f790f17"
+  # issue仓库名
+  repo: "jonsam-ng.github.io"
+  # Github名
+  owner: "jonsam-ng"
+  # Github名
+  admin: ["jonsam-ng"]
+  # Ensure uniqueness and length less than 50
+  id: location.pathname
+  # Facebook-like distraction free mode
+  distractionFreeMode: true
 
 # 网站关键字
-keywords: Fechin
+keywords: Jonsam
 
 # 要使用google_analytics进行统计的话，这里需要配置ID
-google_analytics: 
+google_analytics:
 
 # 网站ico
-favicon: /img/favicon.png
+favicon: /img/favicon.ico
 
 # rss文件
 rss: atom.xml
