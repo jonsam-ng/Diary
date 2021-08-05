@@ -1,0 +1,37 @@
+# 头部菜单，title: link
+menu:
+  关于: /about
+  归档: /archives
+  博客: https://www.jonsam.site
+  Github: https://github.com/jonsam-ng
+
+# 是否显示目录
+TOC: true
+
+# 是否自动播放音乐
+autoplay: false
+
+# 默认音乐
+mp3:
+  - https://qn.jonsam.site//public/static/music/13_jours_en_France.mp3
+
+# 首页封面图, 为空时取文章的cover作为封面
+welcome_cover: /img/banner.jpeg
+
+# 默认文章封面图
+cover: /img/1.jpg
+
+# 是否关闭默认滚动条
+scrollbar: true
+
+# 网站关键字
+keywords: jonsam, diary
+
+# 要使用google_analytics进行统计的话，这里需要配置ID
+# google_analytics:
+
+# 网站ico
+favicon: /img/favicon.ico
+
+# rss文件
+rss: atom.xml
