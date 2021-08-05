@@ -32,7 +32,10 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Install Packages
-        run: npm install
+        run: |
+          rm -rf node_modules
+          npm install
+          npm install -g hexo
 
       - name: Cache node modules
         uses: actions/cache@v1
@@ -52,4 +55,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          
