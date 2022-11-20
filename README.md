@@ -1,7 +1,7 @@
 <br>
 <p align="center">
 <a href="https://diary.jonsam.site" target="_blank">
-<img src="./logo.png" alt="100js" height="250" width="250"/>
+<img src="./logo.png" alt="diary" height="250" width="250"/>
 </a>
 <h1 align="center">Diary</h1>
 </p>
