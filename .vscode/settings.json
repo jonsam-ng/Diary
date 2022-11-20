@@ -8,6 +8,7 @@
     "db.json": true,
     "themes": true,
     "source/CNAME": true,
+    "_config.yml": true,
   },
   "cSpell.words": []
 }
