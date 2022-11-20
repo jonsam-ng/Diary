@@ -6,6 +6,7 @@ menu:
   标签: /tags
   归档: /archives
   博客: https://www.jonsam.site
+  github: https://github.com/jonsam-ng/Diary
   关于: /about
 
 # 是否显示目录
@@ -47,8 +48,7 @@ hitokoto: false
 
 # 链接(可选:facebook,twitter,github,wechat,email)
 links:
-  github: https://github.com/jonsam-ng/Diary
-  email: mailto:jonsam.ng@foxmail.com
+  # email: mailto:jonsam.ng@foxmail.com
 
 # 备案
 beian:
