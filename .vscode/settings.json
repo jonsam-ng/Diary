@@ -2,6 +2,12 @@
   "files.exclude": {
     "node_modules": true,
     ".history": true,
+    ".github": true,
+    "public": true,
+    "scaffolds": true,
+    "db.json": true,
+    "themes": true,
+    "source/CNAME": true,
   },
   "cSpell.words": []
 }
